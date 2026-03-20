@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking The Long Way Home: The Lamsdorf long march</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            color: #161a3e;
+        }
+        .storymap-container {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+        .storymap-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .storymap-container h1 {
+            position: absolute;
+            width: 100%;
+            background: #fff;
+            top: 0;
+            z-index: 1;
+            height: calc(4rem - 1px);
+            text-align: center;
+            font-size: 51px;
+            margin: 0;
+            font-weight: 400;
+            font-size: clamp(26px, calc(26px + 1vw), 48px);
+            line-height: calc(4rem - 1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="storymap-container">
+        <iframe 
+            src="https://storymaps.arcgis.com/stories/dca12350defa46d4b6763841df7ad37f?embed" 
+            allowfullscreen 
+            allow="geolocation">
+        </iframe>
+    </div>
+</body>
+</html>
